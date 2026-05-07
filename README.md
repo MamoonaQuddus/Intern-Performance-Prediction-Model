@@ -43,8 +43,9 @@ This system helps evaluate intern performance using machine learning instead of 
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
+```text
 ML_Project_1/
 │
 ├── data/
@@ -67,7 +68,7 @@ ML_Project_1/
 │   └── feature_importance.py
 │
 ├── app/
-│   └── app.py          
+│   └── app.py
 │
 ├── requirements.txt
 ├── generate_dataset.py
@@ -162,8 +163,8 @@ This project generates:
 
 ## 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/intern-performance-prediction.git
-cd ML_Project_Part2
+git clone https://github.com/MamoonaQuddus/Intern-Performance-Prediction-Model
+cd ML_Project_1
 
 ```
 
