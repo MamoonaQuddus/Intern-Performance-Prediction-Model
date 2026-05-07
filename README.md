@@ -74,7 +74,7 @@ ML_Project_1/
 ├── generate_dataset.py
 └── README.md
 
----
+```
 
 # 📊 Dataset Description
 
