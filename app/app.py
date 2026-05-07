@@ -51,7 +51,15 @@ attendance = st.slider("Attendance Rate (%)", 50, 100, 85)
 # =========================
 if st.button("🔮 Predict Performance"):
 
-    input_data = np.array([[task_time, feedback, attendance]])
+    input_data = pd.DataFrame([[
+    task_time,
+    feedback,
+    attendance
+]], columns=[
+    "task_completion_time",
+    "feedback_rating",
+    "attendance_rate"
+])
 
     # Predictions
     rf_pred = rf_model.predict(input_data)[0]
